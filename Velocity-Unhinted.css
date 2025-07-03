@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: 'Velocity Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/Velocity-Regular.woff2') format('woff2'), url('TTF-Unhinted/Velocity-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Velocity Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/Velocity-Italic.woff2') format('woff2'), url('TTF-Unhinted/Velocity-Italic.ttf') format('truetype');
+}
