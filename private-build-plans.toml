@@ -1,48 +1,92 @@
 [buildPlans.Velocity]
 family = "Velocity"
-spacing = "normal"
+spacing = "term"
 serifs = "sans"
-noCvSs = true
+noCvSs = false
 exportGlyphNames = false
 
-[buildPlans.Velocity.variants.design]
-one = "no-base-long-top-serif"
-two = "straight-neck-serifless"
-three = "flat-top-serifless"
-four = "closed-serifless"
-five = "upright-arched-serifless"
-six = "closed-contour"
-eight = "two-circles"
-nine = "closed-contour"
-capital-a = "round-top-serifless"
-capital-g = "toothless-rounded-inward-serifed-hooked"
-capital-j = "serifed"
-capital-k = "straight-serifless"
-capital-q = "crossing-baseline"
-a = "double-storey-toothless-rounded"
-b = "toothless-rounded-serifless"
-c = "serifless"
-d = "toothless-rounded-serifless"
-f = "diagonal-tailed-crossbar-at-x-height"
-g = "single-storey-flat-hook-earless-corner"
-i = "serifless"
-j = "diagonal-tailed-serifed"
-k = "straight-serifless"
-l = "serifed-diagonal-tailed"
-m = "earless-corner-double-arch-serifless"
-n = "earless-corner-straight-serifless"
-p = "earless-rounded-serifless"
-q = "earless-rounded-straight-serifless"
-r = "compact-serifless"
-s = "serifless"
-t = "diagonal-tailed"
-u = "toothless-rounded-serifless"
-v = "straight-serifless"
+  [buildPlans.Velocity.variants]
+  inherits = "ss15"
+
+    [buildPlans.Velocity.variants.design]
+    one = "no-base"
+    two = "straight-neck-serifless"
+    three = "flat-top-serifless"
+    four = "closed-serifless"
+    five = "upright-arched-serifless"
+    six = "straight-bar"
+    seven = "straight-serifless"
+    eight = "two-circles"
+    nine = "straight-bar"
+    zero = "slashed"
+    capital-a = "round-top-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+    capital-d = "standard-serifless"
+    capital-g = "toothless-rounded-inward-serifed-hooked"
+    capital-p = "closed-serifless"
+    capital-q = "crossing"
+    capital-r = "straight-serifless"
+    a = "double-storey-toothless-rounded"
+    b = "toothless-rounded-serifless"
+    d = "toothless-rounded-serifless"
+    e = "rounded"
+    f = "diagonal-tailed-crossbar-at-x-height"
+    g = "single-storey-flat-hook-earless-rounded"
+    i = "serifed-diagonal-tailed"
+    j = "diagonal-tailed-serifed"
+    l = "serifed"
+    m = "earless-corner-double-arch-serifless"
+    n = "earless-rounded-straight-serifless"
+    p = "earless-rounded-serifless"
+    q = "earless-rounded-straight-serifless"
+    r = "compact-serifless"
+    s = "serifless"
+    t = "diagonal-tailed-short-neck2"
+    u = "toothless-rounded-serifless"
+    capital-eszet = "corner-serifless"
+    long-s = "bent-hook-diagonal-tailed"
+    eszet = "traditional-serifless"
+    capital-thorn = "serifless"
+    lower-thorn = "serifless"
+    lower-gamma = "casual"
+    lower-delta = "flat-top"
+    lower-eta = "earless-corner-serifless"
+    lower-theta = "capsule"
+    lower-iota = "serifed-diagonal-tailed"
+    asterisk = "penta-low"
+    ascii-grave = "straight"
+    ascii-single-quote = "straight"
+    paren = "large-contour"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "closed"
+    at = "compact"
+    dollar = "slanted-through-cap"
+    cent = "slanted-open-cap"
+    percent = "dots"
+    bar = "natural-slope"
+    question = "smooth"
+    micro-sign = "toothless-rounded-serifless"
+    decorative-angle-brackets = "middle"
+    lig-ltgteq = "slanted"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+    lig-double-arrow-bar = "without-notch"
+    lig-single-arrow-bar = "without-notch"
+
+  [buildPlans.Velocity.ligations]
+  inherits = "dlig"
 
 [buildPlans.Velocity.weights.Regular]
 shape = 400
 menu = 400
 css = 400
+
+[buildPlans.Velocity.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
 [buildPlans.Velocity.widths.Normal]
 shape = 500
