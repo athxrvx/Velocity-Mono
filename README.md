@@ -8,7 +8,7 @@
 </i></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/athxrvx/Velocity-Mono/refs/heads/main/velocity-showcase.png" alt="Font Showcase" width="800">
+  <img src="https://raw.githubusercontent.com/athxrvx/Velocity-Mono/refs/heads/main/velocity.png" alt="Font Showcase" width="800">
 </p>
 
 
