@@ -1,5 +1,3 @@
-# Velocity-Mono
-
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/athxrvx/Velocity-Mono/refs/heads/main/velocity-title.png" alt="Velocity Title" width="480">
 </h1>
